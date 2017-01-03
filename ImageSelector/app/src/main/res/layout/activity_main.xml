@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="10dp"
+    tools:context="com.example.android.imageselector.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/add_image_button"
+        android:text="Add image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/send_email_button"
+        android:text="Send email"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/uri_text"
+        tools:text="Image Uri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop" />
+    <ImageView
+        android:id="@+id/image2"
+        android:scaleType="centerCrop"
+        android:layout_width="100dp"
+        android:layout_marginTop="12dp"
+        android:layout_height="100dp" />
+    <TextView
+        android:id="@+id/uri_text2"
+        tools:text="Image Uri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

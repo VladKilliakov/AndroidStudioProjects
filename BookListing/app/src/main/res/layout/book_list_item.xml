@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for a single list item that displays a book -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:orientation="vertical"
+    android:paddingEnd="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="6dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:maxLines="1"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="Android Development" />
+
+    <TextView
+        android:id="@+id/authors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="Jeff Armstrong, Matthew Well" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:textSize="16sp"
+        tools:text="Long placeholder location that should wrap to more than 2 lines of text" />
+
+</LinearLayout>

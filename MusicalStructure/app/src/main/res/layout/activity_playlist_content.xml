@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.android.musicalstructure.PlaylistContentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/recommended"
+                style="@style/ControlBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#AED581"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/recommendations" />
+
+            <Button
+                android:id="@+id/playlists"
+                style="@style/ControlBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#80CBC4"
+                android:text="@string/playlists" />
+
+            <Button
+                android:id="@+id/playing_now"
+                style="@style/ControlBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#CE93D8"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/playing" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cover1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Headers"
+                android:layout_marginLeft="16dp"
+                android:text="@string/playlist_name" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/play1"
+                    style="@style/PlayButtons" />
+
+                <TextView
+                    style="@style/SongItems"
+                    android:layout_toLeftOf="@id/play1"
+                    android:text="@string/song1" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/play2"
+                    style="@style/PlayButtons" />
+
+                <TextView
+                    style="@style/SongItems"
+                    android:layout_toLeftOf="@id/play2"
+                    android:text="@string/song2" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/play3"
+                    style="@style/PlayButtons" />
+
+                <TextView
+                    style="@style/SongItems"
+                    android:layout_toLeftOf="@id/play3"
+                    android:text="@string/song3" />
+
+            </RelativeLayout>
+
+            <TextView
+                style="@style/ActivityDescription"
+                android:autoLink="web"
+                android:text="@string/playlist_content_description" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

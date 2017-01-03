@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicalstructure.RecommendationsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/playlists"
+                style="@style/ControlBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#80CBC4"
+                android:text="@string/playlists" />
+
+            <Button
+                android:id="@+id/playing_now"
+                style="@style/ControlBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#CE93D8"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/playing" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/Headers"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:text="@string/recommended_songs" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:background="#263238" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/play1"
+                style="@style/PlayButtons" />
+
+            <TextView
+                style="@style/SongItems"
+                android:layout_toLeftOf="@id/play1"
+                android:text="@string/song1" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/play2"
+                style="@style/PlayButtons" />
+
+            <TextView
+                style="@style/SongItems"
+                android:layout_toLeftOf="@id/play2"
+                android:text="@string/song2" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/play3"
+                style="@style/PlayButtons" />
+
+            <TextView
+                style="@style/SongItems"
+                android:layout_toLeftOf="@id/play3"
+                android:text="@string/song3" />
+
+        </RelativeLayout>
+
+        <TextView
+            style="@style/Headers"
+            android:gravity="center_horizontal"
+            android:text="@string/friends_recommendations" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#263238" />
+
+        <TextView
+            android:id="@+id/friend1"
+            style="@style/SongItems"
+            android:layout_marginBottom="16dp"
+            android:text="@string/friend1" />
+
+        <TextView
+            android:id="@+id/friend2"
+            style="@style/SongItems"
+            android:layout_marginBottom="16dp"
+            android:text="@string/friend2" />
+
+        <TextView
+            android:id="@+id/friend3"
+            style="@style/SongItems"
+            android:text="@string/friend3" />
+
+        <TextView
+            style="@style/ActivityDescription"
+            android:autoLink="web"
+            android:text="@string/recommendations_description" />
+    </LinearLayout>
+</ScrollView>

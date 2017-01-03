@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.tourguide.MainActivity">
+
+    <!-- Numbers category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_restaurants">
+
+        <TextView
+            android:id="@+id/restaurants"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/RestaurantsActivity" />
+    </FrameLayout>
+
+    <!-- Family category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_bars">
+
+        <TextView
+            android:id="@+id/bars"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/BarsActivity" />
+    </FrameLayout>
+
+    <!-- Colors category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_theaters">
+
+        <TextView
+            android:id="@+id/theaters"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/TheatersActivity" />
+    </FrameLayout>
+
+    <!-- Phrases category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_attractions">
+
+        <TextView
+            android:id="@+id/attractions"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/AttractionsActivity" />
+
+    </FrameLayout>
+
+</LinearLayout>

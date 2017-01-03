@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="address">Addr.:\u0020</string>
+    <string name="app_name">Tour Guide</string>
+    <string name="RestaurantsActivity">Restaurants</string>
+    <string name="BarsActivity">Bars</string>
+    <string name="TheatersActivity">Cinemas/Theaters</string>
+    <string name="AttractionsActivity">Points of interest</string>
+
+    <!--List item names for all activities-->
+    <string name="RestaurantsItem1">Imbir’</string>
+    <string name="RestaurantsItem2">Mr. Jackie</string>
+    <string name="RestaurantsItem3">President</string>
+    <string name="RestaurantsItem4">Ani</string>
+    <string name="RestaurantsItem5">Kit-chen</string>
+
+    <string name="BarsItem1">C2</string>
+    <string name="BarsItem2">Coloradskiy Papa</string>
+    <string name="BarsItem3">4U Club Café</string>
+    <string name="BarsItem4">Cova Music Bar</string>
+    <string name="BarsItem5">Diesel</string>
+
+    <string name="TheatersItem1">Social and Cultural Centre</string>
+    <string name="TheatersItem2">Amur Regional Drama Theatre</string>
+    <string name="TheatersItem3">Amurchonok Regional Puppet Theater</string>
+    <string name="TheatersItem4">Blagoveshchensk Movie Theater</string>
+    <string name="TheatersItem5">Amur Philharmonic Society (“Philarmonia”)</string>
+    <string name="TheatersItem6">DK Movie Theater</string>
+
+    <string name="AttractionsItem1">Amur River Embankment</string>
+    <string name="AttractionsItem2">Triumphal Arch</string>
+    <string name="AttractionsItem3">Amur Regional Local Lore Museum of Novikov-Daurskiy</string>
+    <string name="AttractionsItem4">Cathedral of the Annunciation</string>
+    <string name="AttractionsItem5">City Park of Culture and Leisure</string>
+    <string name="AttractionsItem6">River Gun Boat From The Great Patriotic War Times</string>
+    <string name="AttractionsItem7">Pervomaiskiy Park of Culture and Leisure</string>
+    <string name="AttractionsItem8">Victory Square</string>
+    <string name="AttractionsItem9">Paleontological Museum</string>
+    <string name="AttractionsItem10">Monument to Cossack First Settlers</string>
+
+    <!--Address for each list item-->
+    <string name="RestaurantsItem1Address">121 Lenina str.</string>
+    <string name="RestaurantsItem2Address">12 Shevchenko str.</string>
+    <string name="RestaurantsItem3Address">17 Kuznechnaya str.</string>
+    <string name="RestaurantsItem4Address">190 Oktyabrskaya str.</string>
+    <string name="RestaurantsItem5Address">281/1 Lenina str.</string>
+
+    <string name="BarsItem1Address">159 Lenina str.</string>
+    <string name="BarsItem2Address">161 Lenina str.</string>
+    <string name="BarsItem3Address">161 Lenina str.</string>
+    <string name="BarsItem4Address">161 Lenina str.</string>
+    <string name="BarsItem5Address">179 Lenina str.</string>
+
+    <string name="TheatersItem1Address">100 Lenina str.</string>
+    <string name="TheatersItem2Address">146 Lenina str.</string>
+    <string name="TheatersItem3Address">60/4 Shevchenko str.</string>
+    <string name="TheatersItem4Address">175/179 Zeyskaya str.</string>
+    <string name="TheatersItem5Address">1 Pionerskaya str.</string>
+    <string name="TheatersItem6Address">129 Gorkogo str.</string>
+
+    <string name="AttractionsItem1Address">Along Krasnoflotskaya str.</string>
+    <string name="AttractionsItem2Address">145 Krasnoflotskaya str.</string>
+    <string name="AttractionsItem3Address">165 Lenina str.</string>
+    <string name="AttractionsItem4Address">15 Relochniy str.</string>
+    <string name="AttractionsItem5Address">144 Lenina str.</string>
+    <string name="AttractionsItem6Address">143 Krasnoflotskaya str.</string>
+    <string name="AttractionsItem7Address">2 Krasnoflotskaya str.</string>
+    <string name="AttractionsItem8Address">1 Bogdana Khmelnitskogo str.</string>
+    <string name="AttractionsItem9Address">4 Relochniy str.</string>
+    <string name="AttractionsItem10Address">Sadovoye Tovarishchestvo Nika</string>
+
+    <!--Description for each list item-->
+    <string name="RestaurantsItem1Description">By far my favorite Chinese cuisine restaurant.
+        Inexpensive and delicious.</string>
+    <string name="RestaurantsItem2Description">Very convenient location and great Chinese food make
+        this place a must-visit restaurant.</string>
+    <string name="RestaurantsItem3Description">This restaurant offers both Japanese and Chinese
+        cuisine and does it well in both cases.</string>
+    <string name="RestaurantsItem4Description">Probably the most famous and respected restaurant in
+        the city. It offers a mix of European and Armenian cuisine.</string>
+    <string name="RestaurantsItem5Description">Even though Kit-chen is located on the outskirts of
+        the city, it’s still quite easy to get to, and the Chinese food there is amazing.</string>
+
+    <string name="BarsItem1Description">One of my favorite bars in the city that gets even better
+        when you go there with your friends. </string>
+    <string name="BarsItem2Description">Just like all of the bars on this list, it is located in the
+        nightlife center of Blagoveshchensk. Probably the most well known bar in the city.</string>
+    <string name="BarsItem3Description">Despite the fact that 4U Club was opened just about a year
+        ago, it is already became known for its great atmosphere and people.</string>
+    <string name="BarsItem4Description">Newly remodeled bar right in the heart of Blagoveshchensk downtown.</string>
+    <string name="BarsItem5Description">A great bar that also offers delicious European cuisine</string>
+
+    <string name="TheatersItem1Description">The biggest and the most popular Movie Theater/ Concert
+        hall in the city. There are some events hosted almost every day.</string>
+    <string name="TheatersItem2Description">The oldest Theater not only in the city but also in the
+        entire region. You can enjoy some great plays for an affordable price.</string>
+    <string name="TheatersItem3Description">Even though most of the plays are targeted towards the
+        young audience, the adults can still find something to watch.</string>
+    <string name="TheatersItem4Description">The biggest Movie Theater in the Far East of Russia that
+        has total of 12 screens, also offers the widest variety of movies.</string>
+    <string name="TheatersItem5Description">Philarmonia is mostly focused on offering instrumental
+        concerts and also occasionally host some signing performances.</string>
+    <string name="TheatersItem6Description">One of the smaller movie theaters that, nevertheless,
+        has a great location right in the middle of downtown.
+</string>
+
+    <string name="AttractionsItem1Description">The must-see attraction in the city, that offers the
+        great views of the Chinese side. It\'s the place the city is known for.</string>
+    <string name="AttractionsItem2Description">The original Arch was finished in 1891 and then
+        destroyed by the flood. The one that you can see now is an exact copy finished in 2005.</string>
+    <string name="AttractionsItem3Description">The biggest museum in the region. You can find a lot
+        of interesting information about the history of the city here.</string>
+    <string name="AttractionsItem4Description">Whether you are religious or not this Cathedral is
+        worth visiting just because of its architectural beauty.</string>
+    <string name="AttractionsItem5Description">The most visited park in the city, great place if you
+        want to go for a walk with your friends.</string>
+    <string name="AttractionsItem6Description">A big monument with a real boat on it, and you can
+        free to climb it and explore it more!</string>
+    <string name="AttractionsItem7Description">Not as crowded as the City Park, has more land, and a
+        larger number of roller coasters. A great place for those who like being closer to nature.</string>
+    <string name="AttractionsItem8Description">You can kill two birds with one stone by visiting the
+        Victory Square: you would see both the square and the Triumphal Arch located right next to it.</string>
+    <string name="AttractionsItem9Description">This museum boast a large exhibition of the
+        paleontological remnants, most of which were discovered locally.</string>
+    <string name="AttractionsItem10Description">This monument was opened just about a year ago, but
+        had already became a notorious landmark, mainly because of a great view that it offers.</string>
+
+</resources>
